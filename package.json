@@ -1,0 +1,26 @@
+{
+  "name": "cypress_mochaframework",
+  "version": "1.0.0",
+  "description": "To automate UI applications using Cypress with Mocha and JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --spec cypress/e2e/tests/*.cy.js"
+  },
+  "author": "Gowthami Endala",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gowthami-endala/Cypress_MochaFramework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gowthami-endala/Cypress_MochaFramework/issues"
+  },
+  "homepage": "https://github.com/gowthami-endala/Cypress_MochaFramework#readme",
+  "devDependencies": {
+    "cypress": "^13.15.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "dependencies": {
+    "chai": "^5.1.1"
+  }
+}
